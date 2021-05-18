@@ -1,0 +1,136 @@
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 40px;
+  padding: 0;
+}
+
+.search-form {
+  margin: 20px;
+}
+#search-input {
+  width: 400px;
+  padding: 10px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: none;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.548), 0px 0px 4px rgba(0, 0, 0, 0.555);
+}
+
+#search-input:focus {
+  outline: none;
+}
+
+#search-button {
+  width: 100px;
+  padding: 10px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: none;
+  background-color: rgb(226, 80, 80);
+  color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.555), 0px 0px 4px rgba(0, 0, 0, 0.548);
+}
+
+#search-button:focus {
+  outline: none;
+}
+
+#search-button:hover {
+  cursor: pointer;
+}
+
+.radio-check {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#tv {
+  margin-left: 30px;
+}
+
+.search-results {
+  text-align: center;
+  margin-top: 20px;
+  max-height: 80vh;
+  overflow-y: scroll;
+}
+
+.search-results::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+.search-results::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+.search-results::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+.search-results::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+.search-results::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+.search-results::-webkit-scrollbar-track {
+  background: #666666;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+.search-results::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+.search-results::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+.search-results::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+.search-results-item {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  font-size: 24px;
+  border-radius: 30px;
+  border: solid 2px #ef8354;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.548);
+}
+
+.search-results-item:hover {
+  cursor: pointer;
+  transform: scale(0.98);
+}
+
+.watch-providers {
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.watch-providers div {
+  margin: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.watch-provider-image {
+  border-radius: 5px;
+  box-shadow: 2px 2px 6px rgba(255, 255, 255, 0.164);
+}
+
+.header {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  margin-bottom: 40px;
+}
